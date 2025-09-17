@@ -16,8 +16,15 @@
             text-align: center;
             padding: 10px;
         }
+        /* Make all images responsive */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
         img.descriptive {
             padding: 10px;
+            display: block;
+            margin: 0 auto;
         }
         nav {
             background-color: #f0f0f0;
@@ -29,6 +36,7 @@
             margin: 0;
             display: flex;
             justify-content: center;
+            flex-wrap: wrap; /* Helps on very narrow screens */
         }
         nav li {
             margin: 0 15px;
@@ -79,7 +87,6 @@
             <p>The Harbor Light Community Center has been at the heart of our community for over 30 years, offering a wide range of services and programs designed to support and enrich the lives of our residents.</p>
             <p><img class="descriptive" src="https://edube.org/uploads/media/default/0001/04/community-center.jpg" alt="People gathering outside the community center"></p>
         </section>
-
 
     <section id="services">
       <h2>Our Services</h2>
